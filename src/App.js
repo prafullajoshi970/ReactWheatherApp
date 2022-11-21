@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Search from "./componetns/Search";
+
+// import { useState, useEffect } from 'react'
+
 
 function App() {
+
+  // const [data1, setData] = useState();
+  // console.log(data1);
+  // const apikey = '700cd2716d1ea414ff0fe1483e04908c';
+
+  // useEffect(() => {
+  //   fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${'delhi'}&appid=${apikey}`).then(
+  //     (Response) => Response.json.main()
+
+  //   ).then(
+  //     (data1) => {
+  //       console.log(data1);
+  //       const arraydata = data1
+  //       setData(arraydata)
+  //     }
+  //   )
+  // }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Search></Search>
+   
+
+    </>
+        );
 }
 
-export default App;
+        export default App;
