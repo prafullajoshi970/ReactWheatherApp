@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 const Search = () => {
-    const [data, setData] = useState();
+    const [data, setData] = useState("mumbai");
     const [search, setSearch] = useState("mumbai");
 
     useEffect(() => {
